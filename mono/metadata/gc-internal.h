@@ -371,6 +371,8 @@ extern gboolean log_finalizers;
 
 /* If set, do not run finalizers. */
 extern gboolean do_not_finalize;
+/* List of names of classes not to finalize. */
+extern gchar **do_not_finalize_class_names;
 
 #endif /* __MONO_METADATA_GC_INTERNAL_H__ */
 
